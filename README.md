@@ -4,6 +4,18 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## 🛠️ Installation
 
+#### Get choco! 
+Run in admin 
+```shell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+#### Get ZIG
+Run in admin 
+```shell
+choko install zig
+```
+
+
 #### Make a backup of your current nvim and shared folder
 
 ```shell
