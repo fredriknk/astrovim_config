@@ -16,7 +16,9 @@ return {
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
   },
-
+  plugins = {
+    { "mfussenegger/nvim-dap", enabled = true },
+  },
   -- Set colorscheme to use
   colorscheme = "astrodark",
 
