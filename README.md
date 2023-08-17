@@ -10,11 +10,21 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
  (windows)
  
 ```shell
-choko install python
+choco install python
+```
+```shell
 choco install neovim
-choko install zig
+```
+```shell
+choco install zig
+```
+```shell
 choco install nodejs.install
 ```
+```shell
+choco install pwsh --version=6.0.1
+```
+
 #### Set up python
 ```shell
 python -m pip install virtualenv
